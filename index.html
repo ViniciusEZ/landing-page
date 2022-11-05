@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" 
+    type="checkbox" aria-label="close menu" 
+    role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+            <a href="#home">Uma logo</a></h1>
+        <nav>
+            <ul onclick="getElementById('close-menu').checked = false;">
+                <li><a href="#intro">intro</a></li>
+                <li><a href="#grid-one">grid-one</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#grid-two">grid-two</a></li>
+                <li><a href="#pricing">pricing</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+        <div class="intro-text-content">
+            <h2>Fastest cars in the world 2022</h2>
+            <p>The pursuit of top speed has long captivated performance car brands, and continues to this day even as the motoring world starts to move into the electric age. 
+                Your 'usual' sports cars and supercars just don't cut it.</p>
+        </div>
+        <div class="intro-img">
+            <img src="assets/imgs/javascript-html-css.svg" alt="javascript, css and html logos">
+        </div>
+    </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+        <h2>TOP 3 JOBS</h2>
+        <p>Chief Executive Officer is one of the highest paying jobs in the world. 
+            The average salary of a CEO in India is around Rs. 2,952,883 annually, whereas in the US, 
+            it is around $155,291.</p>
+        <p>In terms of revenue and employment, the healthcare industry has rapidly expanded to become one of India’s largest industries. 
+            This is mainly due to the increased demand for quality and affordable healthcare services and the influx of public and private players. 
+            The healthcare industry encompasses hospitals, telemedicine & mHealth, medical tourism, 
+            medical equipment, health insurance, etc.</p>
+        <p>B.Tech (Bachelor of Technology) or B.E. (Bachelor of Engineering) in software engineering is the most vital qualification to become a software engineer. 
+            You can also pursue an M.Tech in software engineering if you want to receive better annual packages and climb up the promotional ladder.</p>
+    </div>
+
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">The average salary of a CEO</h2>
+        <p class="grid-description">A little description.</p>
+
+        <div class="grid">
+        <article>
+            <h3>Teste 0</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eligendi dolor quaerat 
+            est vero nisi accusamus ex 
+            fuga nam velit! Mollitia, reprehenderit dolorem numquam a totam dolor porro tenetur accusamus.</p>
+        </article>
+
+        <article>
+            <h3>Teste 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eligendi dolor quaerat 
+            est vero nisi accusamus ex 
+            fuga nam velit! Mollitia, reprehenderit dolorem numquam a totam dolor porro tenetur accusamus.</p>
+        </article>
+
+        <article>
+        <h3>Teste 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eligendi dolor quaerat 
+            est vero nisi accusamus ex 
+            fuga nam velit! Mollitia, reprehenderit dolorem numquam a totam dolor porro tenetur accusamus.</p>
+        </article>
+
+        </div>
+
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Gallery</h2>
+        <p class="grid-description">A random little description.</p>
+
+        <div class="grid">
+        <div class="gallery-img">
+           <img src="https://source.unsplash.com/random/360x360?r=1" alt="random imagem from unsplash.">
+        </div>
+
+        <div class="gallery-img">
+        <img src="https://source.unsplash.com/random/360x360?r=2" alt="random imagem from unsplash.">
+        </div>
+
+        <div class="gallery-img">
+        <img src="https://source.unsplash.com/random/360x360?r=3" alt="random imagem from unsplash.">
+        </div>
+
+        <div class="gallery-img">
+        <img src="https://source.unsplash.com/random/360x360?r=4" alt="random imagem from unsplash.">
+        </div>
+
+        <div class="gallery-img">
+        <img src="https://source.unsplash.com/random/360x360?r=5" alt="random imagem from unsplash.">
+        </div>
+
+        <div class="gallery-img">
+        <img src="https://source.unsplash.com/random/360x360?r=6" alt="random imagem from unsplash.">
+        </div>
+
+        </div>
+
+        </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">More top 3 jobs</h2>
+        <p class="grid-description">A little description.</p>
+
+        <div class="grid">
+        <article>
+            <h3>Teste 0</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eligendi dolor quaerat 
+            est vero nisi accusamus ex 
+            fuga nam velit! Mollitia, reprehenderit dolorem numquam a totam dolor porro tenetur accusamus.</p>
+        </article>
+
+        <article>
+            <h3>Teste 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eligendi dolor quaerat 
+            est vero nisi accusamus ex 
+            fuga nam velit! Mollitia, reprehenderit dolorem numquam a totam dolor porro tenetur accusamus.</p>
+        </article>
+
+        <article>
+        <h3>Teste 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eligendi dolor quaerat 
+            est vero nisi accusamus ex 
+            fuga nam velit! Mollitia, reprehenderit dolorem numquam a totam dolor porro tenetur accusamus.</p>
+        </article>
+
+        </div>
+
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Pricing</h2>
+            <p>In terms of revenue and employment, the healthcare industry has rapidly expanded to become one of India’s largest industries. 
+                This is mainly due to the increased demand for quality and affordable healthcare services and the influx of public and private players. 
+                The healthcare industry encompasses hospitals, telemedicine & mHealth, medical tourism, 
+                medical equipment, health insurance, etc.</p>
+            
+        <div class="responsive-table">
+            <table>
+                <caption> Pricing Table </caption>
+                <thead>
+                    <tr>
+                    <th>Title 1</th>
+                    <th>Title 2</th>
+                    <th>Title 3</th>
+                    <th>Title 4</th>
+                    <th>Title 5</th>
+                    </tr>
+                </thead>
+
+            <tbody>
+                <tr>
+                    <td> Content 1 </td>
+                    <td> Content 2 </td>
+                    <td> Content 3 </td>
+                    <td> Content 4 </td>
+                    <td> Content 5 </td>
+                </tr>
+                <tr>
+                    <td> Content 1 </td>
+                    <td> Content 2 </td>
+                    <td> Content 3 </td>
+                    <td> Content 4 </td>
+                    <td> Content 5 </td>
+                </tr>
+                <tr>
+                    <td> Content 1 </td>
+                    <td> Content 2 </td>
+                    <td> Content 3 </td>
+                    <td> Content 4 </td>
+                    <td> Content 5 </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                   <td></td> 
+                   <td></td> 
+                   <td></td> 
+                   <td></td> 
+                   <td>Apenas um teste</td> 
+                </tr>
+            </tfoot>
+            </table>
+        </div>
+        </div>
+    
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+        <div class="intro-text-content">
+            <h2>Fastest cars in the world 2022</h2>
+            <p>The pursuit of top speed has long captivated performance car brands, and continues to this day even as the motoring world starts to move into the electric age. 
+                Your 'usual' sports cars and supercars just don't cut it.</p>
+        </div>
+        <div class="intro-img">
+            <img src="assets/imgs/javascript-html-css.svg" alt="javascript, css and html logos">
+        </div>
+        <div class="contact-form">
+            <fieldset class="form-grid">
+                <legend>Contact Us</legend>
+
+                <div class="form-group">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name"
+                    placeholder="Your first name">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name"
+                    placeholder="Your last name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email"
+                    placeholder="email">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"
+                    placeholder="Your message"></textarea>
+                </div>
+
+                <div class="form-group full-width">
+                    <button type="submit">Send message</button>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+   
+    </section>
+    <footer id="footer" class="footer white-bg">
+        <p><a target="_blank" href="https://www.linkedin.com/in/viniciusezequiel/">
+            Feito por Vinicius.
+        </a>
+        </p>
+    </footer>
+    
+
+    <a class="back-to-top" href="#">❰</a>
+</body>
+</html>
